@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site de Maude Mainnevret</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <script src="./scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Maude Mainnevret</h1>
+    </header>
+    <section class="about">
+      <img src="images/Maude.jpg" alt="Maude" />
+      <h2>Présentation</h2>
+      <p>
+        Bonjour ! Je suis Maude MAINNEVRET, secrétaire assistante
+        médico-sociale de Seine-et-Marne et disponible dans toute l'Ile-de-France.<br />
+Mon Titre de Secrétaire Assistante Médico-Sociale obtenu en 2019, suite à ma formation de secrétaire assitante, me permets d'exercer dans toutes sortes de structures des secteurs médical médico-social et social. 
+      </p>
+    </section>
+    <section class="skills">
+      <h2>Compétences</h2>
+      <div class="skills-content">
+        <div class="skills-column">
+          <div class="progress-container">
+            <span class="progress-badge">Power Point</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%;"></div>
+              <span class="progress-value">90%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+            <span class="progress-badge">Excel</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%;"></div>
+              <span class="progress-value">95%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+            <span class="progress-badge">Word</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%;"></div>
+              <span class="progress-value">95%</span>
+            </div>
+          </div>
+        </div>
+        <!-- Fin .skills-column -->
+        <div class="skills-column">
+          <div class="progress-container">
+            <span class="progress-badge">Organisation</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 95%;"></div>
+              <span class="progress-value">95%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+            <span class="progress-badge">Vitesse de frappe </span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 95%;"></div>
+              <span class="progress-value">95%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+            <span class="progress-badge">Anglais</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 60%;"></div>
+              <span class="progress-value">90%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+                    
+        </div>
+        <!-- Fin .skills-column -->
+      </div>
+      <!-- Fin .skills-content -->
+    </section>
+    <section class="timeline">
+      <h2>Expérience</h2>
+      <ul>
+        <!-- Début expérience 1 -->
+        <li>
+          <div class="bubble">
+            <time>2020</time>
+            <span>Assistante conseil - OGF</span>
+            <br />FONTENAY-TRESIGNY (77)
+          </div>
+        </li>
+        <!-- Fin expérience 1 -->
+        <!-- Début expérience 2 -->
+        <li>
+          <div class="bubble">
+            <time>2020</time>
+            <span>Secrétaire Médico-Sociale - CAMPS Cadet Rousselle</span>
+            <br />CHAMPIGNY-SUR-MARNE (94)
+          </div>
+        </li>
+        <!-- Fin expérience 2 -->
+
+        <!-- Début expérience 3 -->
+        <li>
+          <div class="bubble">
+            <time>2019</time>
+            <span
+              >Stage 6 semaines - Secrétaire médicale - Centre de santé
+              Coralis</span
+            >
+            <br />OZOIR-LA-FERRIERE (77)
+          </div>
+        </li>
+        <!-- Fin expérience 3 -->
+        <!-- Début expérience 3 -->
+        <li>
+          <div class="bubble">
+            <time>2018</time>
+            <span
+              >Stage 7 semaines - Assistante administrative - EPHAD Le
+              Patio</span
+            >
+            <br />ROISSY-EN-BRIE (77)
+          </div>
+        </li>
+        <!-- Fin expérience 3 -->
+        <!-- Début expérience 3 -->
+        <li>
+          <div class="bubble">
+            <time>2018</time>
+            <span>Stage 7 semaines - Secrétaire médicale - CHSF</span>
+            <br />CORBEIL-ESSONNES (91)
+          </div>
+        </li>
+        <!-- Fin expérience 3 -->
+      </ul>
+    </section>
+    <section class="contact">
+      <h2>Contact</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42079.72364645095!2d2.6402463158181586!3d48.76312614516636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e605d55a9d71f5%3A0xa06bbe0e725acbf0!2sOzoir-la-Ferri%C3%A8re!5e0!3m2!1sfr!2sfr!4v1606398910896!5m2!1sfr!2sfr"
+        width="600"
+        height="450"
+        frameborder="0"
+        style="border: 0;"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+      ></iframe>
+      <form name="contact" method="POST" data-netlify="true">
+        <div class="row">
+          <div class="form-group">
+            <label>Nom</label>
+            <input type="text" name="name" placeholder="Votre nom" required />
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Votre email"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea
+            name="message"
+            placeholder="Votre message..."
+            required
+          ></textarea>
+        </div>
+        <button class="btn">Envoyer</button>
+      </form>
+    </section>
+  </body>
+</html>
